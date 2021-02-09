@@ -1,0 +1,36 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: .9em;
+    color: darkgray;
+    margin: 0;
+}
+
+a,
+.button {
+    color: darkmagenta;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    cursor: hand;
+}
+
+a:hover,
+a:focus,
+.button:hover,
+.button:focus,
+a.activeItem {
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+    transition: all 0.5s linear;
+}
+
+.menu {
+    margin: 10px;
+}
+
+.menu a {
+    margin: 5px;
+    background-size: 100%;
+    text-transform: lowercase;
+}
